@@ -4,6 +4,7 @@ $color-primary: #ebf490;
 $color-secondary: #dee1fd;
 $color-tertiary: #f7634e;
 $text-color: #000000e7;
+$color-grey: #f4f4f4;
 
 // RESPONSIVE BREAKPOINTS
 $bp-large: 63.75em; // 1000px
@@ -166,7 +167,7 @@ body {
 ///ANIMATION/////////
 
 .slider {
-  background-color: #f4f4f4;
+  background-color: $color-grey;
   height: 12rem;
 
   position: relative;
@@ -313,7 +314,7 @@ body {
   }
 
   &__btn {
-    background-color: #f4f4f4;
+    background-color: $color-grey;
     padding: 0.8rem 1.5rem;
     font-size: 1.5rem;
 
