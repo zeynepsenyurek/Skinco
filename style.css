@@ -28,10 +28,13 @@ body {
   .news__text {
     font-size: 12px;
     font-weight: 400;
-    color: #000000e7; }
+    color: #000000e7;
+    line-height: 1.5; }
   .news__link {
     color: inherit;
-    margin-left: 5px; }
+    margin-left: 5px;
+    text-decoration: underline;
+    line-height: 1.5; }
 
 .header {
   background-color: #fff;
@@ -150,7 +153,9 @@ body {
     font-size: 4.2rem;
     font-family: "Outfit", sans-serif;
     font-weight: 700;
-    padding: 5rem 0; }
+    padding: 5rem 0;
+    color: inherit;
+    letter-spacing: 1.1; }
 
 .blue-star-top {
   position: absolute;
